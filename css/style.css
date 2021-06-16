@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+.title-area {
+	margin-bottom: 10px;
+}
+.btn {
+	padding: 10px 40px;
+	border-radius: 30px;
+	display: block;
+	margin: 0 auto;
+	background-color: #e0f0fc;
+}
+.title {
+	padding: 10px 40px;
+	margin: 20px 10%;
+	font-size: 50px;
+}
+
+.apl {
+	padding: 10px 40px;
+	margin: 10px 20%;
+}
+
+a:hover,
+.control-btn:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-ms-filter: “alpha(opacity=50) ”;
+}
+.ver {
+	font-size: 12px;
+	padding: 10px;
+}
+
+/* 眼筋ストレッチ */
+.mainarea {
+}
+.screen {
+	border: 1px solid black;
+	width: 900px;
+	height: 500px;
+	margin: 40px auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.control-area {
+	display: flex;
+	justify-content: center;
+}
+.btn-area {
+	display: flex;
+}
+.control-btn {
+	border-radius: 20px;
+	background-color: #e0f0fc;
+	display: block;
+	padding: 20px 40px;
+	border: blue 1px solid;
+	margin: 20px 100px;
+}
+
+/* 眼筋ストレッチ */
+.circle,
+.circle-out {
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+.circle {
+	background-color: aqua;
+}
+.circle-out {
+	background-color: white;
+}
+
+/* #circle1 {
+	height: 900px; 
+	width: 900px;
+	z-index: 1;
+}
+#circle1-in {
+	height: 850px;
+	width: 850px;
+	z-index: 2;
+}
+#circle2 {
+	background-color: aqua;
+	height: 800px;
+	width: 800px;
+	z-index: 3;
+}
+#circle2-in {
+	background-color: white;
+	height: 750px;
+	width: 750px;
+	z-index: 4;
+} */
