@@ -8,8 +8,9 @@
 	border-radius: 30px;
 	display: block;
 	margin: 0 auto;
-	background-color: black;
+	background-color: #e0f0fc;
 }
+
 .title {
 	padding: 10px 40px;
 	margin: 20px 10%;
@@ -22,10 +23,12 @@
 }
 
 a:hover,
-.control-btn:hover {
+.control-btn:hover,
+.btn:hover {
 	opacity: 0.5;
 	filter: alpha(opacity=50);
 	-ms-filter: “alpha(opacity=50) ”;
+	cursor: pointer;
 }
 .ver {
 	font-size: 12px;
@@ -93,25 +96,8 @@ a:hover,
 	background-color: black;
 }
 
-/* #circle1 {
-	height: 900px; 
-	width: 900px;
-	z-index: 1;
+.str1 {
+	position: absolute;
+	font-size: 24px;
+	color: white;
 }
-#circle1-in {
-	height: 850px;
-	width: 850px;
-	z-index: 2;
-}
-#circle2 {
-	background-color: aqua;
-	height: 800px;
-	width: 800px;
-	z-index: 3;
-}
-#circle2-in {
-	background-color: white;
-	height: 750px;
-	width: 750px;
-	z-index: 4;
-} */
